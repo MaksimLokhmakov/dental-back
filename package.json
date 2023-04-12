@@ -1,0 +1,19 @@
+{
+  "name": "dental-app-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.11",
+    "nodemon": "^2.0.14"
+  }
+}
